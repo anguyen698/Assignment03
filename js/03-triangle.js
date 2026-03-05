@@ -1,6 +1,7 @@
-let triangleBase = 7;
+let triangleBaseCount = 7;
 
-for (let layer = 1; layer <= triangleBase; layer++) {
+for (let layer = 1; layer <= triangleBaseCount; layer++) {
   let row = "#".repeat(layer);
   window.console.log(row);
 }
+
