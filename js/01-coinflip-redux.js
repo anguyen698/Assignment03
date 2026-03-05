@@ -1,5 +1,5 @@
 let coinFlip;
-let numIterations = prompt("Please enter a number (of iterations):");
+let numIterations = prompt("Please enter a number (of flips):");
 
 numIterations = parseFloat(numIterations);
 for (let iteration = 0; iteration < numIterations; iteration++) {
@@ -10,3 +10,4 @@ for (let iteration = 0; iteration < numIterations; iteration++) {
     window.console.log("Heads");
   }
 }
+
